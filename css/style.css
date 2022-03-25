@@ -1,0 +1,131 @@
+    /* .p {
+        color: rgb(250, 243, 249);
+        margin-right: 0;
+        margin-left: 0px;
+        font-size: 25px;
+        font-style: oblique;
+    } */
+    
+    .nom {
+        color: #040505;
+        padding: 20px 0px;
+    }
+    /* navbar*/
+    /* ul {
+     list-style-type: none;
+     overflow: hidden;
+ } */
+    /* li {
+     float: left;
+ }
+ 
+ li a {
+     display: block;
+     color: rgb(250, 120, 194);
+     text-align: right;
+     padding: 20px 20px;
+     text-decoration: none;
+     font-weight: bold;
+ } */
+    /* li a:hover {
+     background-color: rgb(216, 137, 160);
+ } */
+    /*video background*/
+    /* .video {
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     min-width: 100%;
+     min-height: 100%;
+     width: auto;
+     height: auto;
+     z-index: 1;
+ }
+  */
+    
+    html,
+    body,
+    div,
+    h1,
+    p,
+    a,
+    video,
+    h2 {
+        z-index: 2;
+        position: relative;
+    }
+    
+    .content {
+        z-index: 2;
+        position: relative;
+        max-width: 1250px;
+        margin: auto;
+        font-style: oblique;
+    }
+    /* h1 {
+        font-style: oblique;
+    } */
+    
+    @media (max-width: 767px) {
+        body {
+            background: rgb(41, 39, 39);
+        }
+        .video {
+            display: none;
+        }
+    }
+    /*     
+    h3 {
+        width: 500px;
+        height: 30px;
+        position: relative;
+        animation-name: mymove;
+        animation-duration: 10s;
+    }
+    
+    @keyframes mymove {
+        from {
+            left: 5px;
+        }
+        to {
+            left: 400px;
+        }
+    } */
+    /*     
+    button {
+        background-color: rgb(98, 93, 196);
+        border: 1px solid #0082b0;
+        color: rgb(252, 116, 193);
+        display: block;
+        text-align: right;
+        text-decoration: none;
+        font-weight: bold;
+    } */
+    
+    body {
+        background-color: #222831;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    h2 {
+        height: 50px;
+    }
+    
+    h5 {
+        height: 100px;
+    }
+    
+    .timeline-card {
+        background-color: #00fff5
+    }
+    /* .navicon {
+        color: #00fff5
+    } */
+    
+    .card-header {
+        background-color: #00fff5
+    }
+    /* .nav-item {
+        background-color: #00fff5
+    } */
